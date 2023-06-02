@@ -1,0 +1,219 @@
+:root {
+  --prm_bg_login:#F0F5FE;
+  --prm_bg_col:#ED7A2B;
+  --white: #faf0e6;
+  --prm_txt_color: #545454;
+  --prm_txt_color2: #5895CD;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+textarea:focus, input:focus{
+  outline: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+.splash-screen{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  var(--prm_bg_login);
+}
+.splash-2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  var(--prm_bg_login);
+}
+
+.log-btn{
+  width: 100%;
+  background-color: var(--prm_bg_col);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Coursr-btn{
+  width: 100%;
+  background-color: var(--prm_bg_col);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.splash-2-text{
+  color: var(--prm_txt_color) !important;
+  font-size: 18px;
+}
+.splash-txt2{
+  color: var(--prm_bg_col) ;
+  font-size: 18px;
+}
+.login-section{
+  background-color: var(--prm_bg_col);
+  width: 100%;
+}
+.login-card{
+  width: 100%;
+  border: none;
+}
+
+.home-section{
+  height: 95vh;
+  max-height: 100%;
+  overflow-y: auto !important;
+  padding-bottom: 50px;
+}
+
+.bar-option{
+  height: 800px !important;
+  max-height: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+.exam-bar{
+  height: 800px !important;
+  max-height: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+.bar-opt{
+  height: 400px;
+  max-height: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+.rule-section{
+  height: 0px;
+  max-height: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  background-color: red !important;
+  position: fixed;
+}
+.que-screen{
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  /* background-color: #fff !important; */
+}
+
+
+.ytp-large-play-button, .ytp-button, .ytp-large-play-button-red-bg{
+  display: none !important;
+}
+
+@media only screen and (max-width: 290px) {
+  .ruletxt {
+    margin-top: 20px;
+  }
+  .agre-txt-fold{
+    font-size: 1em !important;
+  }
+  .rev-dec-text{
+    font-size: 0.8em !important;
+  }
+  .up-assi-txt{
+    font-size: 0.6em !important;
+  }
+  .sub-assi-txt{
+    font-size: 0.6em !important;
+  }
+  .sub-name-txt{
+    font-size: 0.6em !important;
+  }
+  .homelive-txt{
+    font-size: 0.8em !important;
+  }
+  .assi-nav-txt{
+    font-size: 1em !important;
+  }
+  .assi-declr-txt{
+    font-size: 0.8em !important;
+  }
+  .profile-txt{
+    padding-left: 25px !important;
+  }
+  .profile-img{
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .que-txt{
+    padding-left: 15px;
+  }
+}
+
+div.scrollmenu {
+  background-color: transparent;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0 !important;
+}
+
+div.scrollmenu .scroll-div {
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke:#0CBC8B !important;
+  stroke-linecap: square !important;
+  transition: stroke-dashoffset 0.5s ease 0s !important;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #F5B807 !important;
+  stroke-linecap: round !important;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #2e2e2e !important;
+  font-size: 25px !important;
+  text-anchor: middle;
+}

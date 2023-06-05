@@ -10,4 +10,4 @@ rm -rf build
 #Install_node_modules_&_Make_React_Build
 npm  install
 npm run build
-cp -rf /home/ec2-user/server/build/* /var/www/html/
+cp -rf /home/ec2-user/server/build/* /web/lms

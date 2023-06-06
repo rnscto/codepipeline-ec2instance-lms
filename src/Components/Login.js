@@ -43,7 +43,7 @@ export default function Login() {
         <div className='row'>
           <div className='col-12 mx-auto'>
             <div className='card login-card mt-5 bg-transparent'>
-              <p className='text-start' style={{ fontSize:20, fontWeight:500, color:"#545454" }} >Enter Registered Email</p>
+              <p className='text-start' style={{ fontSize:20, fontWeight:500, color:"#545454" }} >Enter Your Email</p>
               <div class="input-group p-1 mb-3" style={{ border:"1px solid #E4E4E4", borderRadius:5 }}>
                 <span className="input-group-text border-0 bg-transparent" id="basic-addon1">
                   <HiMail style={{ fontSize: 25, color:"#858585" }} />  

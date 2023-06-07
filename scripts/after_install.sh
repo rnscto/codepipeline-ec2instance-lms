@@ -10,4 +10,5 @@ rm -rf build
 #Install_node_modules_&_Make_React_Build
 npm  install
 npm run build
-cp -raf /home/ec2-user/lms/build/. /web/lms
+cp -raf /home/ec2-user/lms/build/* /web/lms
+cp -raf /home/ec2-user/lms/.htaccess /web/lms

@@ -24,4 +24,3 @@ artifacts:
     - server.js
     - appspec.yml
     - scripts/**/*
-    - .htaccess

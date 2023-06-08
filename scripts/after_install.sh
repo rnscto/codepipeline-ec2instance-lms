@@ -11,4 +11,3 @@ rm -rf build
 npm  install
 npm run build
 cp -rf /home/ec2-user/lms/build/* /web/lms
-cp -rf /home/ec2-user/lms/.htaccess /web/lms
